@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "285e4c44-31e4-4298-838c-3e600c2d97d3",
+		"name": "Ecommerce QA – MaxiSabadini",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50087884",
+		"_collection_link": "https://maxisabadini-8570927.postman.co/workspace/Maxi-Sabadini's-Workspace~3065a0cf-728f-41f9-8e79-427ade69f345/collection/50087884-285e4c44-31e4-4298-838c-3e600c2d97d3?action=share&source=collection_link&creator=50087884"
+	},
+	"item": [
+		{
+			"name": "GET – Lista de productos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST – Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"mor_2314\",\r\n  \"password\": \"83r5^_\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fakestoreapi.com/auth/login",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
